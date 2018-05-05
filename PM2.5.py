@@ -1,6 +1,8 @@
 # -*- coding:UTF-8 -*-
 from bs4 import BeautifulSoup
 import requests
+
+
 if __name__ == "__main__":
     target = 'http://www.pm25.com/shanghai.html'
     req = requests.get(url=target)
